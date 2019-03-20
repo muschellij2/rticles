@@ -47,8 +47,3 @@ test_format("mdpi_article")
 test_format("mnras_article")
 test_format("copernicus_article")
 test_format("frontiers_article")
-test_format("frontiers_article")
-test_format("frontiers_article",
-            output_options = list(documentclass = "frontiersFPHY"))
-test_format("frontiers_article",
-            output_options = list(documentclass = "frontiersHLTH"))
