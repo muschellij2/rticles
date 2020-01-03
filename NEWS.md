@@ -1,3 +1,51 @@
+rticles 0.14
+---------------------------------------------------------------------
+
+- Added custom author ordering for the IEEE template (thanks, @DunLug, #263).
+
+- Added a multi-line authoring option in the IEEE template (thanks, @DunLug, #264).
+
+- Added the `citation_sorting` YAML option to change the biblatex's sorting option in `ieee_article()` output (thanks, @DunLug, #265).
+
+rticles 0.13
+---------------------------------------------------------------------
+
+- Added the `cslreferences` environment to all templates (thanks, @bbauzile, #260).
+
+- Updated the template for `elsevier_article()` to allow for two authors to share the same footnote (e.g. "these authors made equal contributions") and updated the corresponding skeleton to demonstrate how to use a shared footnote (thanks, @salauer, #255).
+
+- Fixed header includes for `rjournal_article()` (thanks, @agila5 #257, @rcannood #261).
+
+- Add support for bibliography styles on the Springer template (thanks, @swhaat, #262).
+
+rticles 0.12
+---------------------------------------------------------------------
+
+- Updated the `pnas_article()` document class from the PNAS website https://www.pnas.org/page/authors/latex (#21).
+
+rticles 0.11
+---------------------------------------------------------------------
+
+- Added the Journal of Open Source Software (and Education) template (@noamross, #229).
+
+- Tweaked the `tf_article` template to avoid using absolute full paths for figures in the "Figures" section (@jooyoungseo, #246).
+
+rticles 0.10
+---------------------------------------------------------------------
+
+- Support syntax highlighting in the `peerj_article()` format (@zkamvar, #238).
+
+rticles 0.9
+---------------------------------------------------------------------
+
+- Added support for Keywords in IEEE Trans template (@espinielli, #227).
+
+- Updated Statistics in Medicine template to its latest version (@ellessenne, #231).
+
+- Update Copernicus Publications template to version 5.3 (@nuest, #228).
+
+- Use csl file for citations in output format `elsevier_article()` (@nuest, #233)
+
 rticles 0.8
 ---------------------------------------------------------------------
 
@@ -6,6 +54,8 @@ rticles 0.8
 - The top-level option `biblio-files` in the YAML frontmatter was changed to `bibliography` in the `elsevier_article()` template (@JohannesFriedrich, #222).
 
 - Added header option `correspongdingauthors` to configure multiple corresponding authors for Copernicus Publications (@nuest, #221).
+
+- Updated the template for MDPI to 02/2019 (@dleutnant, #203).
 
 rticles 0.7
 ---------------------------------------------------------------------

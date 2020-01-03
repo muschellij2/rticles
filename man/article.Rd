@@ -25,21 +25,32 @@
 \usage{
 acm_article(...)
 
-acs_article(..., keep_tex = TRUE,
-  md_extensions = c("-autolink_bare_uris"), fig_caption = TRUE)
+acs_article(
+  ...,
+  keep_tex = TRUE,
+  md_extensions = c("-autolink_bare_uris"),
+  fig_caption = TRUE
+)
 
-aea_article(..., keep_tex = TRUE,
-  md_extensions = c("-autolink_bare_uris"))
+aea_article(..., keep_tex = TRUE, md_extensions = c("-autolink_bare_uris"))
 
-agu_article(..., keep_tex = TRUE, citation_package = "natbib",
-  highlight = NULL, md_extensions = c("-autolink_bare_uris",
-  "-auto_identifiers"))
+agu_article(
+  ...,
+  keep_tex = TRUE,
+  citation_package = "natbib",
+  highlight = NULL,
+  md_extensions = c("-autolink_bare_uris", "-auto_identifiers")
+)
 
-amq_article(..., latex_engine = "xelatex", keep_tex = TRUE,
-  fig_caption = TRUE, md_extensions = c("-autolink_bare_uris"))
+amq_article(
+  ...,
+  latex_engine = "xelatex",
+  keep_tex = TRUE,
+  fig_caption = TRUE,
+  md_extensions = c("-autolink_bare_uris")
+)
 
-ams_article(..., keep_tex = TRUE,
-  md_extensions = c("-autolink_bare_uris"))
+ams_article(..., keep_tex = TRUE, md_extensions = c("-autolink_bare_uris"))
 
 asa_article(..., keep_tex = TRUE, citation_package = "natbib")
 
@@ -47,8 +58,11 @@ biometrics_article(..., keep_tex = TRUE, citation_package = "natbib")
 
 ctex(..., latex_engine = "xelatex")
 
-elsevier_article(..., keep_tex = TRUE,
-  md_extensions = c("-autolink_bare_uris"))
+elsevier_article(
+  ...,
+  keep_tex = TRUE,
+  md_extensions = c("-autolink_bare_uris")
+)
 
 frontiers_article(..., keep_tex = TRUE)
 
@@ -58,8 +72,7 @@ mnras_article(..., keep_tex = TRUE, fig_caption = TRUE)
 
 peerj_article(..., keep_tex = TRUE)
 
-plos_article(..., keep_tex = TRUE,
-  md_extensions = c("-autolink_bare_uris"))
+plos_article(..., keep_tex = TRUE, md_extensions = c("-autolink_bare_uris"))
 
 pnas_article(..., keep_tex = TRUE)
 
@@ -70,7 +83,6 @@ sim_article(..., highlight = NULL, citation_package = "natbib")
 springer_article(..., keep_tex = TRUE, citation_package = "none")
 
 tf_article(..., keep_tex = TRUE, citation_package = "natbib")
-
 }
 \arguments{
 \item{..., keep_tex, latex_engine, citation_package, highlight, fig_caption, md_extensions}{Arguments passed to \code{rmarkdown::\link{pdf_document}()}.}
@@ -194,7 +206,7 @@ Possible arguments for the YAML header are:
   \item \code{corrauth} corresponding author name and address
   \item \code{email} correspondence email
   \item \code{abstract} abstract, limited to 200 words
-  \item \code{keywords} keywords for the artucle
+  \item \code{keywords} keywords for the article
   \item \code{bibliography} BibTeX \code{.bib} file name
   \item \code{classoption} options of the \code{sagej} class
  \item \code{header-includes}: custom additions to the header, before the \code{\\begin\{document\}} statement
@@ -231,7 +243,7 @@ Possible arguments for the YAML header are:
 
 \section{\code{tf_article}}{
  Format for creating submissions to a Taylor & Francis journal. Adapted from
-\href{http://www.tandf.co.uk/journals/authors/InteractCADLaTeX.zip}{http://www.tandf.co.uk/journals/authors/InteractCADLaTeX.zip}.
+\url{http://www.tandf.co.uk/journals/authors/InteractCADLaTeX.zip}.
 }
 
 \examples{

@@ -64,6 +64,15 @@
 
 \journalname{$journal$}
 
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+$endif$
+
 $for(header-includes)$
 $header-includes$
 $endfor$
@@ -171,7 +180,12 @@ $endfor$
 \begin{abstract}
 $abstract$
 \end{abstract}
+$if(plain_language_summary)$
+\noindent{\bf Plain language summary}\vskip-\parskip
 
+\noindent{$plain_language_summary$}
+\vskip18pt
+$endif$
 $body$
 
 $if(bibliography)$

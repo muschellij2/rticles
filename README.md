@@ -33,13 +33,15 @@ The **rticles** package provides a suite of custom [R Markdown](http://rmarkdown
 
 - [Bulletin de l'AMQ](https://www.amq.math.ca/bulletin/) journal submissions
 
-- [CTeX](http://ctex.org) documents
+- [CTeX](https://ctan.org/pkg/ctex) documents
 
 - [Elsevier](https://www.elsevier.com) journal submissions
 
 - [IEEE Transaction](http://www.ieee.org/publications_standards/publications/authors/author_templates.html) journal submissions
 
 - [JSS](http://www.jstatsoft.org/) articles
+
+- [JOSS](http://joss.theoj.org/) and [JOSE](https://jose.theoj.org/) articles
 
 - [MDPI](http://www.mdpi.com) journal submissions
 
@@ -83,7 +85,7 @@ To use **rticles** from RStudio:
 
 ## Using rticles outside of RStudio
 
-1. Install [pandoc](http://pandoc.org) using the [instructions for your platform](https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md).
+1. Install [pandoc](http://pandoc.org) using the [instructions for your platform](https://rmarkdown.rstudio.com/docs/articles/pandoc.html).
 
 2. Install the **rticles** packages.
 
