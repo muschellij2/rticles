@@ -1,3 +1,8 @@
+rticles 0.15
+---------------------------------------------------------------------
+
+- Added the missing support for `header-includes` to the Biometrics template (thanks, @haozhu233, #296).
+
 rticles 0.14
 ---------------------------------------------------------------------
 
@@ -8,6 +13,8 @@ rticles 0.14
 - Added the `citation_sorting` YAML option to change the biblatex's sorting option in `ieee_article()` output (thanks, @DunLug, #265).
 
 - `mnras.cls` was removed from this package because it exists on CTAN.
+
+- Added Oxford University Press (OUP) template (thanks, @dmkaplan2000, #271).
 
 rticles 0.13
 ---------------------------------------------------------------------
